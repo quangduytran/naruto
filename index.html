@@ -20,24 +20,42 @@
   <meta property="og:title" content="Naruto 2048 game"/>
   <meta property="og:site_name" content="Naruto 2048 game"/>
   <meta property="og:description" content="Let's take a moment to review how Naruto grows up, and develop his skills over time with this game!"/>
-  <meta property="og:image" content="http://quangduytran.github.io/2048/meta/og_image.png"/>
 </head>
-<body>  
-  <embed height="0" width="0" src="./meta/main_theme.mp3"></embed>
+<body> <embed height="0" width="0" src="./meta/main_theme.mp3">
+<!-- #document
+<html><head><meta name="viewport" content="width=device-width"></head><body><video controls="" autoplay="" name="media"><source src="http://quangduytran.github.io/2048/meta/main_theme.mp3" type="audio/mpeg"></video></body></html>
+ --></embed> 
   <div class="container">
     <div class="heading">
-      <a class="restart-button">New Game</a>
+      <h1 class="title">Naruto 2048</h1>
       <div class="scores-container">
         <div class="score-container">0</div>
         <div class="best-container">0</div>
       </div>
     </div>
 
+    <div class="above-game">
+      <p class="game-intro">
+      <a class="restart-button">New Game</a>
+      Use the arrow keys to slide  tiles. Combine similar tiles to create new ones.</p>
+      
+    </div>
+
+    <div class="pre-game">
+      <!-- <p class="learn">Let's take a moment to review how Naruto grows up, and develop his skills over time with this game.</p> -->
+      <a class="learn" href="https://play.google.com/store/apps/developer?id=HQ+Media">Visit my homepage!</a>
+    </div>
+
+
     <div class="game-container">
+      <div id="naruto-wall">
+        <img src="img/naruto_timeline.png">
+      </div>
+
       <div class="game-message">
         <p></p>
         <div class="lower">
-	        <a href="https://play.google.com/store/apps/developer?id=HQ+Media"class="learn learn-low">Visit my website!</a>
+	        <a href="vn.linkedin.com/in/quangduytran"class="learn learn-low">Visit my website!</a>
           <a class="retry-button">Play Again</a>
           <div class="score-sharing"></div>
         </div>
@@ -75,11 +93,21 @@
       </div>
     </div>
 
-<!--     <hr>
+
+    <p class="game-explanation">
+      <strong class="important">Description:</strong> This game is based on the idea of popular 2048 game, and mainly created for Naruto fans. Let's enjoy playing!
+      <br/>
+      Wanna play some more our new games, <a href="https://play.google.com/store/apps/developer?id=HQ+Media" target="_blank">please visit this site!</a>
+    </p>
+    <hr>
     <p class="game-explanation">
       <strong class="important">How to play:</strong> Use your <strong>arrow keys</strong> to move the tiles. When two tiles with the same value touch, they <strong>merge into one!</strong>
     </p>
-    <hr> -->
+    <hr>
+    <p>
+    This is a modified version of the <a href="http://gabrielecirulli.github.io/2048/" target="_blank">original game</a> created by Gabriele Cirulli.
+    </p>
+  </div>
 
   <script src="js/bind_polyfill.js"></script>
   <script src="js/classlist_polyfill.js"></script>
