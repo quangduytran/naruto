@@ -1,6 +1,8 @@
 ## Description
 This game project is based on the idea of popular 2048 game, and mainly created for Naruto fans. Let's enjoy playing!
 
+Check out the demo here: http://quangduytran.github.io/naruto/
+
 ## License
 2048 is licensed under the [MIT license.](https://github.com/gabrielecirulli/2048/blob/master/LICENSE.txt)
 
